@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F8E1DB;
+}
+/*header css*/
+#top-header{
+    /* background-image: linear-gradient(rgba(0, 0, 15, 0.8),rgba(212, 26, 26, 0.8)),url(../image/hd-back.png); */
+    background-image: url("../image/hd-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 350px;
+}
+.navbar .navbar-brand img{
+    background-color: #E76F51;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.navbar .nav-item .nav-link{
+    color: #ffff;
+    font-weight: 600;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.nav-sub-item{
+    margin-right: 25px;
+}
+ .navbar .sign-in{
+    border: 2px solid #ffff;
+    padding: 0px 10px;
+    border-radius: 40px;
+}
+.top-header-detail{
+    text-align: center;
+    color: #ffff;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+
+}
+.heading-title{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+a.link-btn{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+    text-align: center;
+    background-color: #E76F51;
+    padding: 15px 40px;
+    border-radius: 40px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+a.link-btn:hover{
+    border: 3px solid #E76F51;
+    background: none;
+    background-color: #ffff;
+    color: black;
+}
+/*header css close*/
+
+/*camping top icon*/
+.camping{
+    box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.camping h5{
+    padding: 15px;
+}
+.camping-top{
+    height: 200px;
+    position: relative;
+}
+.main-camp{
+    position: absolute;
+    top: -60%;
+    z-index: 1;
+}
+/*camping top icon close*/
+/*Destination css start*/
+#destination{
+    background-image: url("../image/Shapes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+.destination .explore-img{
+    margin-top: 100px;
+}
+.destination .des-title{
+    font-weight: 800;
+    margin-top: 30px;
+}
+.sub-des{
+    background-color: #ffff;
+    box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+    margin: 2px;
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 3%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+}
+.sub-des img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.sub-des .ex-price{
+    background-color: #ffff;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px 10px;
+    position: absolute;
+    left: 25%;
+    top: 42%;
+    font-weight: 500;
+    color: red;
+}
+.sub-des h4{
+    padding-top: 12%;
+    font-weight: 700;
+
+}
+.sub-des .des-details{
+    padding: 5% 0;
+    text-align: justify;
+}
+a.explore-btn{
+    padding: 10px 30px;
+    background-color: #F3F3F3;
+    border-radius: 35px;
+    color: #5D5959;
+    text-decoration: none;
+    margin: 15px 0px;
+    position: relative;
+    font-weight: 700;
+}
+.sub-des .react{
+    font-size: 20px;
+    color: red;
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px;
+    position: absolute;
+    right: 10%;
+    top: 7%;
+}
+.sub-des:hover .react{
+    background-color: rgb(248, 118, 12);
+    color: white;
+    transform: rotate(360deg);
+}
+.sub-des:hover a.explore-btn{
+    background-color: #FBEAE3;
+    color: black;
+}
+.sub-des:hover{
+    box-shadow: 14px 13px 13px -9px lightgray;
+}
+/*Destination css close*/
+
+/*Contact Area Start*/
+.contact-area{
+    background-image: url("../image/Mask\ Group\ 3.png");
+    background-position: left;
+    background-color: #F8E1DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 5px 0px lightgray;
+    overflow: hidden;
+}
+.contact-left{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.contact-left h2{.
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.form input{
+    width: 111%;
+    outline: none;
+    padding: 15px 0;
+    box-shadow: 2px 2px 5px 0px lightgray;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+.form input::placeholder{
+    left: 15%;
+    text-align: left;
+    position: relative;
+}
+.form{
+    position: relative;
+}
+.message-left{
+    position: absolute;
+    z-index: 1;
+    font-size: 24px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 55px;
+    width: 45px;
+    padding: 0;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px 0 0 15px;
+}
+.message-right{
+    position: absolute;
+    background-color: #fff;
+    height: 55px;
+    width: 55px;
+    right: -11%;
+    top: 0;
+    border-radius: 0 15px 15px 0;
+}
+.message-right i{
+    position: absolute;
+    top: 10%;
+    right: 22%;
+    background-color: #E76F51;
+    padding: 13px;
+    font-size: 16px;
+    border-radius: 40%;
+    color: #fff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    z-index: 555;
+    text-align: center;
+}
+.message-right i:hover{
+    background-color: white;
+    color: #E76F51;
+    border: 2px solid #E76F51;
+    cursor: pointer;
+
+}
+.contact-right img{
+    width: 100%;
+    margin-left: 5%;
+
+}
+/*Contact Area Close*/
