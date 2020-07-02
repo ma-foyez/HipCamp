@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #F8E1DB;
+    background-color: #FAF4F2;
 }
 /*header css*/
 #top-header{
@@ -191,7 +191,7 @@ a.explore-btn{
     margin-left: 7%;
     margin-top: 5%;
 }
-.contact-left h2{.
+.contact-left h2{
     font-weight: 700;
     padding-bottom: 25px;
 }
@@ -262,3 +262,38 @@ a.explore-btn{
 
 }
 /*Contact Area Close*/
+
+/*Footer area*/
+#footer{
+    margin-top: 120px;
+    background-image: url("../image/Rectangle\ 57.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.sub-footer{
+    margin: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0;
+}
+.sub-footer h4{
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.sub-footer .download{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.sub-footer img{
+    margin-right: 10px;
+}
+.sub-footer img:hover{
+    cursor: pointer;
+}
+.sub-footer p:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
